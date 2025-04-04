@@ -18,11 +18,14 @@
 
 ## 畫面截圖
 
-(建議在此處插入 App 的截圖或 GIF 動畫，展示主畫面、詳細頁面、互動效果等)
+(以下是您加入的截圖，使用相對路徑)
 
-* *主畫面截圖*
-* *詳細頁面 - 說明頁籤截圖 (含圖片)*
-* *詳細頁面 - 互動體驗頁籤截圖*
+![Screenshot 1](assets/images/1.png)
+![Screenshot 2](assets/images/2.png)
+![Screenshot 3](assets/images/3.png)
+![Screenshot 4](assets/images/4.png)
+![Screenshot 5](assets/images/5.png)
+![Screenshot 6](assets/images/6.png)
 
 ## 技術棧與主要套件
 
@@ -40,7 +43,7 @@
 your_project_name/
 ├── android/
 ├── assets/        # 資源檔資料夾
-│   ├── images/    # 存放圖片/GIF 資源
+│   ├── images/    # 存放圖片/GIF 資源 (包含 1.png - 6.png 等)
 │   └── music/     # 存放背景音樂檔案
 ├── ios/
 ├── lib/
@@ -66,7 +69,7 @@ your_project_name/
     ```
 3.  **建立資源資料夾:** 在專案根目錄建立 `assets/images/` 和 `assets/music/` 資料夾。
 4.  **放置資源檔案:**
-    * 將教學圖片/GIF (如 `ISO.webp`, `Shutter.gif`, `EV.jpg`, `WB.jpg`, `composition.jpg`, `focal.jpeg` 等) 放入 `assets/images/`。
+    * 將教學圖片/GIF (如 `ISO.webp`, `Shutter.gif`, `EV.jpg`, `WB.jpg`, `composition.jpg`, `focal.jpeg`, 以及您的 `1.png` - `6.png` 等) 放入 `assets/images/`。
     * 將背景音樂檔案 (例如 `background.mp3`) 放入 `assets/music/`。
 5.  **確認 `pubspec.yaml`:** 確保 `pubspec.yaml` 中的 `flutter:` -> `assets:` 區塊已正確宣告 `assets/images/` 和 `assets/music/`。
     ```yaml
