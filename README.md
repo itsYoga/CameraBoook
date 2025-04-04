@@ -18,14 +18,20 @@
 
 ## 畫面截圖
 
-(以下是您加入的截圖，使用相對路徑)
+(使用 HTML 表格實現並排顯示)
 
-![Screenshot 1](assets/images/1.png)
-![Screenshot 2](assets/images/2.png)
-![Screenshot 3](assets/images/3.png)
-![Screenshot 4](assets/images/4.png)
-![Screenshot 5](assets/images/5.png)
-![Screenshot 6](assets/images/6.png)
+<table>
+  <tr>
+    <td align="center"><img src="assets/images/1.png" alt="Screenshot 1" width="200"/></td>
+    <td align="center"><img src="assets/images/2.png" alt="Screenshot 2" width="200"/></td>
+    <td align="center"><img src="assets/images/3.png" alt="Screenshot 3" width="200"/></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="assets/images/4.png" alt="Screenshot 4" width="200"/></td>
+    <td align="center"><img src="assets/images/5.png" alt="Screenshot 5" width="200"/></td>
+    <td align="center"><img src="assets/images/6.png" alt="Screenshot 6" width="200"/></td>
+  </tr>
+</table>
 
 ## 技術棧與主要套件
 
